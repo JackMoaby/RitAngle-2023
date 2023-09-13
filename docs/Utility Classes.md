@@ -2,7 +2,7 @@
 
 ## Array Utils
 
-### function `getPermurationArray()`
+### `getPermurationArray()`
 This function returns an array of all of the permutations of the input array. 
 > **Note** 
 > This function is limited to arrays of size 10 for the sake of my RAM
@@ -14,7 +14,7 @@ ArrayUtils.getPermurationArray(sampleArray)
 // [[1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1]]
 ```
 
-### function `getPermutationIterator()`
+### `getPermutationIterator()`
 This function is an extension of [getPermurationArray](###getPermurationArray) which generates the next permutation of an input array
 
 > **Note**

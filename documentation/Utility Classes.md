@@ -9,7 +9,7 @@ It should be noted that for the final question of the competition: rust, c++ or 
 
 ## Array Utils
 
-### getPermurationArray
+### function `getPermurationArray()`
 This function returns an array of all of the permutations of the input array. 
 
 > **Note** 
@@ -23,7 +23,7 @@ ArrayUtils.getPermurationArray(sampleArray)
 // [[1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1]]
 ```
 
-### getPermutationIterator
+### function `getPermutationIterator()`
 This function is an extension of [getPermurationArray](###getPermurationArray) which allows for larger than 10 array elements to be entered, without the fear of using up all of your RAM and your computer dieing.
 
 ```JavaScript

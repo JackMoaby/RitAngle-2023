@@ -1,5 +1,4 @@
 # Ritangle Utility Classes - A Documentation
-
 ## Array Utils
 
 ### `getPermurationArray()`
@@ -43,3 +42,7 @@ while (!nextPerm.done) {
 // [ 1, 3, 2, 4 ]
 // ... you get the point
 ```
+
+## GPU.js
+
+See [gpu.js documentation](https://github.com/gpujs/gpu.js)

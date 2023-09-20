@@ -3,10 +3,8 @@
 
 ## Progress
 <p align="center">
-    Preliminary questions
-    <img src="https://geps.dev/progress/0" alt="Progress Bar"/>
-    Final Task
-    <img src="https://geps.dev/progress/0" alt="Progress Bar"/>
+    Preliminary questions: <img src="https://geps.dev/progress/0" alt="Progress Bar"/> <br>
+    Final Task: <img src="https://geps.dev/progress/0" alt="Progress Bar"/>
 </p>
 
 ## Timeline

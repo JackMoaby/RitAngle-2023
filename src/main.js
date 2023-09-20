@@ -1,46 +1,44 @@
 const ArrayUtils = require("../utils/arrayUtils")
 const { GPU } = require('gpu.js');
+const gpu = new GPU({});
 
-const cpu = new GPU({ mode: 'cpu' });
-var gpu = new GPU();
+let outArray = [];
 
-let matrixSize = 2048
+const iterations = 1_000;
+const globalIterations = 1000;
+const gpuThreads = 100_000;
 
-const generateMatrices = (size) => {
-	const matrices = [[],[]]
-	for (let y = 0; y < size; y++) {
-		matrices[0].push([])
-		matrices[1].push([])
-		for (let x = 0; x < size; x++) {
-			matrices[0][y].push(Math.random())
-			matrices[1][y].push(Math.random())
-		}
-	}
-	return matrices
+const bag = [3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 0];
+
+const runSimulation = gpu.createKernel(function(iterations, bag) {
+    let output = 0;
+    for (let i = 0; i < iterations; i++){
+        let array = [0, 0, 0];
+        let arrayCount = 0;
+        while(arrayCount < 3){
+            let targetElement = Math.floor(Math.random() * 27);
+            if (array[0] == targetElement){}
+            else if (array[1] == targetElement){}
+            else if (array[2] == targetElement){}
+            else{array[arrayCount] = targetElement; arrayCount += 1};
+        }
+
+        if ((bag[array[0]] + bag[array[1]] + bag[array[2]]) === 4) output += 1
+    }
+
+    return output;    
+}).setOutput([gpuThreads])
+
+
+const sumArray = (arr) => {return arr.reduce((accumulator, currentValue) => accumulator + currentValue, 0)};
+
+console.time("GPU go BRRR time")
+for (let i = 0; i < globalIterations; i++){
+    const output = sumArray(runSimulation(iterations, bag));
+    outArray.push(output)
 }
+console.timeEnd("GPU go BRRR time")
 
-const multiplyMatrixCPU = cpu.createKernel(function(a, b, c) {
-	let sum = 0;
-	for (let i = 0; i < c; i++) {
-		sum += a[this.thread.y][i] * b[i][this.thread.x];
-	}
-	return sum;
-}).setOutput([matrixSize, matrixSize])
-
-const multiplyMatrixGPU = gpu.createKernel(function(a, b, c) {
-	let sum = 0;
-	for (let i = 0; i < c; i++) {
-		sum += a[this.thread.y][i] * b[i][this.thread.x];
-	}
-	return sum;
-}).setOutput([matrixSize, matrixSize])
-
-
-
-let matrices = generateMatrices(matrixSize)
-console.time(`CPU - ${matrixSize}`)
-const outCPU = multiplyMatrixCPU(matrices[0], matrices[1], matrixSize)
-console.timeEnd(`CPU - ${matrixSize}`)
-console.time(`GPU - ${matrixSize}`)
-const outGPU = multiplyMatrixGPU(matrices[0], matrices[1], matrixSize)
-console.timeEnd(`GPU - ${matrixSize}`)
+console.log(`Total iterations: ${(globalIterations * gpuThreads * iterations).toLocaleString("en-US")}`)
+console.log(`Total successes: ${sumArray(outArray).toLocaleString("en-US")}`)
+console.log(`Final Percentage: ${sumArray(outArray) / (globalIterations * gpuThreads * iterations)}%`)

@@ -5,7 +5,7 @@ const gpu = new GPU({});
 let outArray = [];
 
 const iterations = 1_000;
-const globalIterations = 1000;
+const globalIterations = 1_000;
 const gpuThreads = 100_000;
 
 const bag = [3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 0];

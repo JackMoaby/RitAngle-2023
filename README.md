@@ -1,6 +1,14 @@
 # 2023 Ritangle Competition
 > [Ritangle Website](https://mei.org.uk/ritangle/) ⟵ Tempremental link
 
+## Progress
+<p align="center">
+    Preliminary questions
+    <img src="https://geps.dev/progress/0" alt="Progress Bar"/>
+    Final Task
+    <img src="https://geps.dev/progress/0" alt="Progress Bar"/>
+</p>
+
 ## Timeline
 ### Registration
 - **Date:** 2 October
@@ -15,16 +23,9 @@
 - **Date:** 5 December
 - **Description:** Final challenges released.
 
-## Progress
-<p align="center">
-    Preliminary questions
-    <img src="https://geps.dev/progress/0" alt="Progress Bar"/>
-    Final Task
-    <img src="https://geps.dev/progress/0" alt="Progress Bar"/>
-</p>
-
-<pre align="center">
 ## Question Specific Credit for the Contributors
+<pre align="center">
+
 | Question(s)    | Credit         | Solution(s)    |
 |----------------|----------------|----------------|
 | 1              |                |                |

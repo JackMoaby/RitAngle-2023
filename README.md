@@ -2,10 +2,8 @@
 > [Ritangle Website](https://mei.org.uk/ritangle/) ⟵ Tempremental link
 
 ## Progress
-<p align="center">
-    Preliminary questions: <img src="https://geps.dev/progress/0" alt="Progress Bar"/> <br>
-    Final Task: <img src="https://geps.dev/progress/0" alt="Progress Bar"/>
-</p>
+Preliminary questions: <img src="https://geps.dev/progress/0" alt="Progress Bar"/> <br>
+Final Task: <img src="https://geps.dev/progress/0" alt="Progress Bar"/>
 
 ## Timeline
 ### Registration

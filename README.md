@@ -1,6 +1,12 @@
 # 2023 Ritangle Competition
 > [Ritangle Website](https://mei.org.uk/ritangle/) ⟵ Tempremental link
 
+# Install Dependencies
+
+```shell
+npm install
+```
+
 ## Progress
 ### Preliminary questions: 
 <img src="https://geps.dev/progress/0" alt="Progress Bar"/>

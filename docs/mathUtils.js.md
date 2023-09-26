@@ -40,8 +40,8 @@ This function will use the initialisation value as a starting point for Newton's
 ```Javascript
 const inputFunction = "x ^ 2 + 2 * x - 10"; // Replace with your own function
 const iterations = 1000; // The more iterations, the more accurate (although 100 -> 1000 tends to be enough)
-const initialGuess = 0; // Replace with your own initial guess
-const roots = MathUtils.bruteForceRootsFromInit(inputFunction, iterations, initialGuess);
+const initial = 0; // Replace with your own initial value
+const roots = MathUtils.bruteForceRootsFromInit(inputFunction, iterations, initial);
 console.log(roots); // 2.3166247903554
 ```
 

@@ -2,8 +2,8 @@
 
 ## Table of Contents
 - [How to](#how-to-initialise)
-- [`getPermurationArray(array)`](#getpermurationarrayarray)
-- [`getPermutationIterator(array)`](#getpermutationiteratorarray)
+- [`getPermurationArray()`](#getpermurationarrayarray)
+- [`getPermutationIterator()`](#getpermutationiteratorarray)
 
 ---
 

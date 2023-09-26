@@ -4,7 +4,9 @@ class mathUtils {
 		if (inputFunctionString.includes("log") || inputFunctionString.includes("ln")) throw "No logarithms";
 
 		const input = inputFunctionString.replaceAll("^", "**");
-		const derivative = String(math.derivative(inputFunctionString, "x")).replaceAll("^", "**");
+
+		try{const derivative = String(math.derivative(inputFunctionString, "x")).replaceAll("^", "**")}
+		catch (err){ throw `Cannot compute the derivative because: ${err}` }
 
 		let current = initialisation;
 		for (let i = 0; i < iterations; i++) {

@@ -38,9 +38,9 @@ This function will use the initialisation value as a starting point for Newton's
 > The use of 2 * x instead of 2x is intentional, the program will throw errors
 
 ```Javascript
-const inputFunction = "x ^ 2 + 2 * x - 10"; // Replace with your own function
-const iterations = 1000; // The more iterations, the more accurate (although 100 -> 1000 tends to be enough)
-const initial = 0; // Replace with your own initial value
+const inputFunction = "x ^ 2 + 2 * x - 10";
+const iterations = 1000;
+const initial = 0;
 const roots = MathUtils.bruteForceRootsFromInit(inputFunction, iterations, initial);
 console.log(roots); // 2.3166247903554
 ```
@@ -65,9 +65,9 @@ This function will use every integer within `testValuesBetween{"low": n, "high",
 
 ### Usage Example:
 ```Javascript
-const inputFunction = "x ^ 2 + 2 * x - 10"; // Replace with your own function
-const iterations = 1000; // The more iterations, the more accurate (although 100 -> 1000 tends to be enough)
-const testValuesRange = {"low":-5,"high":5}; // Replace with your own range
+const inputFunction = "x ^ 2 + 2 * x - 10";
+const iterations = 1000;
+const testValuesRange = {"low":-5,"high":5};
 const roots = MathUtils.bruteForceRoots(inputFunction, iterations, testValuesRange);
 console.log(roots); // [ -4.3166247903554, 'Turning Point: -1', 2.3166247903554 ]
 ```

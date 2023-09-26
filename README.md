@@ -3,8 +3,14 @@
 
 # Install Dependencies
 
+Javascript Files
 ```shell
 npm install
+```
+
+Python Files
+```shell
+pip install -r requirements.txt
 ```
 
 ## Progress
@@ -13,20 +19,6 @@ npm install
 
 ### Final Task: 
 <img src="https://geps.dev/progress/0" alt="Progress Bar"/>
-
-## Timeline
-### Registration
-- **Date:** 2 October
-- **Description:** Teams can register for this year's competition.
-### Preliminary Questions
-- **Date:** 2 October - 4 December
-- **Description:** 
-  - For the first four weeks, one question is released every Monday.
-  - For the following 5 weeks, three questions will be released on Mondays, Wednesdays, and Fridays.
-  - The final question of Stage 1 will be posted the following Monday.
-### Final Task
-- **Date:** 5 December
-- **Description:** Final challenges released.
 
 ## Question Specific Credit for the Contributors
 <pre align="center">

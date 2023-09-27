@@ -1,17 +1,13 @@
 # 2023 Ritangle Competition
 > [Ritangle Website](https://mei.org.uk/ritangle/) ⟵ Tempremental link
 
-# Install Dependencies
-
-Javascript Files
-```shell
-npm install
-```
-
-Python Files
-```shell
-pip install -r requirements.txt
-```
+## Formatting
+When making any edits to this repository, make sure to maintain the current standards
+- No erroneous commit notes
+> You know what I mean...
+- All `functioning` RitAngle code must be located within the `/src` folder
+> With the file pattern: `{SECTION NUMBER}_{QUESTION NUMBER}_question.{extension}`
+- Any additional utilities we need to add must be located within the `/utils/{LANGUAGE}` folder
 
 ## Progress
 ### Preliminary questions: 

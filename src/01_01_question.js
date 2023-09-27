@@ -1,1 +1,0 @@
-// Ritangle Question 1

@@ -9,7 +9,7 @@ These methods can be tempremental and require precision to use. All equations mu
 ---
 
 ## How to initialise
-For use within the src filetree use
+For use within the src filetree, use
 
 ```Javascript
 import MathUtils from "../utils/JS/mathUtils.js"

@@ -8,7 +8,7 @@
 ---
 
 ## How to initialise
-For use within the src filetree use
+For use within the src filetree, use
 
 ```Javascript
 import ArrayUtils from "../utils/JS/arrayUtils.js"

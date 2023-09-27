@@ -3,8 +3,8 @@ These methods can be tempremental and require precision to use. All equations mu
 
 ## Table of Contents
 - [How to Initialize](#how-to-initialise)
-- [`brute_force_roots_from_init()`](#)
-- [`brute_force_roots()`](#)
+- [`brute_force_roots_from_init()`](#brute_force_roots_from_initinput_function_string-iterations10-initialization0-in_terms_ofx)
+- [`brute_force_roots()`](#brute_force_rootsinput_function_string-iterations10-test_values_betweenlow-100-high--100-in_terms_ofx)
 
 ---
 

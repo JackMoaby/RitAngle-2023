@@ -1,5 +1,5 @@
 class ArrayUtils {
-    static getPermurationArray(array) {
+    static getPermutationArray(array) {
         if (!Array.isArray(array) || array.length <= 1) return [array.slice()];
         if (array.length > 10) return "It's too big, I cannot permutate it";
 

@@ -91,6 +91,37 @@ class MathUtils {
         }
         return primes
     }
+
+    static generatePrimeIterator(){
+        let multiples = new Set();
+        let primes = new Set();
+        let currentValue = 2;
+        
+        const getLastOfASet = (set) => {
+            let array = Array.from(set)
+            return array[array.length - 1]
+        }
+        
+        return {
+            next: function(){
+                while (true){
+                    if (!multiples.has(currentValue)){
+                        primes.add(currentValue);
+                        for (let j = currentValue ** 2; j < (currentValue + 1000); j+=currentValue){
+                            multiples.add(j)
+                        };
+                        currentValue += 1;
+                        
+                        return {
+                            value: getLastOfASet(primes) 
+                        }
+                    } else {
+                        currentValue += 1;
+                    }
+                }
+            }
+        }
+    }
 }
 
 export default MathUtils

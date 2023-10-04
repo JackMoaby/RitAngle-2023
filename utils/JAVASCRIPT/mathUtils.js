@@ -77,6 +77,20 @@ class MathUtils {
 
         return Array.from(outputSet);
     }
+
+    static generatePrimeArray(limit){
+        let multiples =  new Set();
+        let primes = new Set();
+        for (let i = 2; i < (limit + 1); i++){
+            if (!multiples.has(i)){
+                primes.add(i);
+                for (let j = i * i; j < (limit + 1); j+=i){
+                    multiples.add(j)
+                }
+            }
+        }
+        return primes
+    }
 }
 
 export default MathUtils

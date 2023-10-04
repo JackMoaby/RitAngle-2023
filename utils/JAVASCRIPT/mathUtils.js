@@ -33,7 +33,6 @@ class MathUtils {
         return inputDerivative;
     }
 
-    // Finish implementing this method for cross function compatability
     static newtonsMethod(input, inputDerivative, inTermsOf, iterations, initialisation){
         let current = initialisation;
         for (let i = 0; i < iterations; i++) {

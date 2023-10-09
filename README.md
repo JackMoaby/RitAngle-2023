@@ -1,10 +1,9 @@
 # 2023 Ritangle Competition
 > [Ritangle Website](https://mei.org.uk/ritangle/) ⟵ Tempremental link
 
-## Question Specific Credit for the Contributors
-
+## Solutions
+### Stage 1
 <pre align="center">
-
 | Question(s)    | Credit                                                                               | Solution(s)    |
 |----------------|--------------------------------------------------------------------------------------|----------------|
 | 1              |  Jack Moaby                                                                          |  0.0893        |

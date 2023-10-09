@@ -3,7 +3,6 @@
 
 ## Solutions
 ### Stage 1
-<pre align="center">
 | Question(s)    | Credit                                                                               | Solution(s)    |
 |----------------|--------------------------------------------------------------------------------------|----------------|
 | 1              |  Jack Moaby                                                                          |  0.0893        |
@@ -16,5 +15,4 @@
 | 9              |                                                                                      |                |
 | 10             |                                                                                      |                |
 
-</pre>
 ... more will be added later as more questions happen

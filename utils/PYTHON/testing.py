@@ -29,7 +29,7 @@ def min_dist_from_point_to_eq(point, equation_string):
     # Calculate the derivatives and set up equations
     for variable, terms in terms_dict.items():
         derivative = sp.diff(terms, variable)
-        equations_dict[variable] = derivative - point[str(variable)]
+        equations_dict[variable] = derivative
     
     # Include the equation from the input
     equations_dict[sp.symbols("L")] = f"{equation_string}"
@@ -38,22 +38,35 @@ def min_dist_from_point_to_eq(point, equation_string):
     term_vars = tuple([variable for variable, terms in equations_dict.items()])  
     
     # Solve the system of equations
-    solutions = sp.solve(equations, term_vars, dict=False)    
+    print("Solving With Sympy")
+    solutions = sp.solve(equations, term_vars, dict=False, rational=False)
+    print(solutions)
+    
     if isinstance(solutions, dict):
         solutions = [tuple(list(solutions.values()))]
     
     # Remove the lambda value from the solutions
     solutions_without_lambda = [[*tuple[:-1],] for tuple in solutions]
     
+    
     # Define a function to calculate Euclidean distance
     def euclidean_distance(target):
         return sp.sqrt(sum((a1 - a2)**2 for a1, a2 in zip(target, point.values())))
     
     # Calculate distances for all solutions
-    distances = [euclidean_distance(point) for point in solutions_without_lambda]
+    distances = [euclidean_distance(point) if "I" not in str(point) else float('inf') for point in solutions_without_lambda]
     
     # Handle complex numbers by setting their distance to infinity
-    real_distances = [point if "I" not in str(point) else float('inf') for point in distances]
+    real_distances = [point for point in distances]
+    
+    if len(real_distances) == 0:
+        return {
+            "equation": str(equation_string),
+            "initial": str(tuple(point.values())),
+            "closest_on_curve": None,
+            "initial_closest_distance": None,
+            "full_distances": distances
+        }
     
     # Find the minimum distance
     best_dist = min(real_distances)
@@ -68,18 +81,11 @@ def min_dist_from_point_to_eq(point, equation_string):
 
 
 if __name__ == "__main__":
+                
     sample = min_dist_from_point_to_eq(
-        {"x": 0, "y": 0, "z": 0},
-        "x**2 + 2 * y**2 - z**2 - 5" 
+        {"x": 2, "y": 2, "z": 2},
+        "x * (y ** 2) * z - 2",
     )
     
-    formatted = json.dumps(sample, indent=4)
-    print(formatted)
-    
-    sample = min_dist_from_point_to_eq(
-        {"x": 0, "y": 0},
-        "3 * x + 2 * y - 2"
-    )
-
     formatted = json.dumps(sample, indent=4)
     print(formatted)

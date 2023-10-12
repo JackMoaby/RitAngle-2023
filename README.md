@@ -16,3 +16,6 @@
 | 10             |                                                                                      |                |
 
 ... more will be added later as more questions happen
+
+## Notes
+All of the solutions so far have been to 3s.f. therefore it may be insert each of the digits into the rectangular tetriminos grid

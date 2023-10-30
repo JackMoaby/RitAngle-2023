@@ -31,8 +31,9 @@ def find_min_dist_to_curve(point, equation_string, precision=10):
     try:
         solution = sp.nsolve(equations, term_vars, [*point.values(), 0], prec=precision, dict=True)
         return tuple(list(solution[0].values())[:-1])
-    except:
+    except Exception as Err:
         # fail quietly for utility in other functions
+        # print(f"fq {Err}")
         return tuple(point.values())
     
         
@@ -52,4 +53,17 @@ def find_min_dist_to_curve(point, equation_string, precision=10):
 # if __name__ == "__main__":
 #     step_size = 0.5
 #     range_limit = 1
+#     test_point_generation(step_size, range_limit)
+
+# def test_point_generation(step, range_limit):
+#     for x in range(-range_limit, range_limit + 1):
+#         for y in range(-range_limit, range_limit + 1):
+#                 a = x * step
+#                 b = y * step
+#                 print(f"({a:.1f}, {b:.1f})")
+#                 print(f"{find_min_dist_to_curve({'x': a, 'y': b},'tan(x*y)-1', 10)}")
+
+# if __name__ == "__main__":
+#     step_size = 0.5
+#     range_limit = 8
 #     test_point_generation(step_size, range_limit)

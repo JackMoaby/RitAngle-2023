@@ -1,10 +1,10 @@
 const modEval = (equation, variable, value) => {
-    equationArray = equation.split(" + ");
+    let equationArray = equation.split(" + ");
     
-    output = 0;
+    let output = 0;
     for (let equation of equationArray){
         equation = equation.replaceAll("|", "");
-        signedValue = eval(`let ${variable} = ${value}; ${equation}`);
+        let signedValue = eval(`let ${variable} = ${value}; ${equation}`);
         output += signedValue < 0 ? signedValue * -1 : signedValue;
     }
 
@@ -39,15 +39,15 @@ function solveForTurningPoint(equation){
         }
     }
 
-    turningPointX = arbitraralyLargeValue - (arbitraralyLargeValue - guess) / 2
+    let turningPointX = arbitraralyLargeValue - (arbitraralyLargeValue - guess) / 2
     return {x: turningPointX, y: modEval(equation, variable, turningPointX)}
 }
 
 
 function testEquation(equation){
     console.log(solveForTurningPoint(equation));
-    turningPoint = solveForTurningPoint(equation);
-    product = Math.abs(turningPoint.x * turningPoint.y);
+    let turningPoint = solveForTurningPoint(equation);
+    let product = Math.abs(turningPoint.x * turningPoint.y);
     if (product > 100){return true};
     return false;
 }

@@ -10,10 +10,10 @@ function runBruteForce(lowerbound, upperbound, depth){
         a4 = a1 * r(a1) ** 3
         a5 = a1 * r(a1) ** 4
 
-        area = a1 + a2 + a3 + a4 + a5
-        width = Math.sqrt(a3) + (a2 / (Math.sqrt(a3) + Math.sqrt(a1)))
-        height = (a5 / (Math.sqrt(a1) + width - Math.sqrt(a3))) + (Math.sqrt(a3) + Math.sqrt(a1));
-        deviation = area - (width * height)
+        let area = a1 + a2 + a3 + a4 + a5
+        let width = Math.sqrt(a3) + (a2 / (Math.sqrt(a3) + Math.sqrt(a1)))
+        let height = (a5 / (Math.sqrt(a1) + width - Math.sqrt(a3))) + (Math.sqrt(a3) + Math.sqrt(a1));
+        let deviation = area - (width * height)
         deviation_array.push(deviation)
     }
 
@@ -29,7 +29,7 @@ function runBruteForce(lowerbound, upperbound, depth){
 }
 
 console.time("Brute Force")
-a1_deviation = runBruteForce(0, 1000, 9)
-a1 = (a1_deviation[0] + a1_deviation[1]) / 2
+let a1_deviation = runBruteForce(0, 1000, 9)
+let a1 = (a1_deviation[0] + a1_deviation[1]) / 2
 console.timeEnd("Brute Force")
 console.log(`Solution: ${Math.round(a1 + a1 * r(a1) + a1 * r(a1) ** 2 + a1 * r(a1) ** 3 + a1 * r(a1) ** 4)}`)

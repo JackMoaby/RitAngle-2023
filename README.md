@@ -1,6 +1,9 @@
 # 2023 Ritangle Competition
 > [Ritangle Website](https://mei.org.uk/ritangle/) ⟵ Tempremental link
 
+## Useful Links
+> [Polynomino Solver](http://cemulate.github.io/polyomino-solver/)
+
 ## Solutions
 ### Stage 1
 | Question(s) | Credit | Solution(s) |

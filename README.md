@@ -15,7 +15,7 @@
 | 5 | Jack Moaby, Martin Walker | 9980 |
 | 6 | Jack Moaby, Martin Walker | 137.5 |
 | 7 | Jack Moaby, Martin Walker | 229 |
-| 8 | | |
+| 8 | Jack Moaby, Martin Walker, Miguel Butler, Stanley Smith, Adam Drew| 109.47 |
 | 9 | | |
 | 10 | | |
 | 11 | | |

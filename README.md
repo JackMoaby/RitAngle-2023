@@ -1,9 +1,6 @@
 # 2023 Ritangle Competition
 > [Ritangle Website](https://mei.org.uk/ritangle/) ⟵ Tempremental link
 
-## Useful Links
-> [Polynomino Solver](http://cemulate.github.io/polyomino-solver/)
-
 ## Solutions
 ### Stage 1
 | Question(s) | Credit | Solution(s) |
@@ -15,10 +12,10 @@
 | 5 | Jack Moaby, Martin Walker | 9980 |
 | 6 | Jack Moaby, Martin Walker | 137.5 |
 | 7 | Jack Moaby, Martin Walker | 229 |
-| 8 | Jack Moaby, Martin Walker, Miguel Butler, Stanley Smith| 109.47 |
+| 8 | Jack Moaby, Martin Walker, Miguel Butler | 109.47 |
 | 9 | Jack Moaby, Miguel Butler| 0.792 |
 | 10 | Jack Moaby | 19 |
-| 11 | | |
+| 11 | Jack Moaby, Miguel Butler, Martin Walker | 4.24 |
 | 12 | | |
 | 13 | | |
 | 14 | | |

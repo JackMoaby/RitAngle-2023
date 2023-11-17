@@ -1,9 +1,5 @@
 import { derivative } from "mathjs";
 
-// removing all of the math.___ so it won't break upon eval-ing some trig
-for (let name of Object.getOwnPropertyNames(Math))
-    globalThis[name] = Math[name]
-
 class MathUtils {
     static validateInput(inputFunctionString, inTermsOf) {
         if (typeof inputFunctionString !== 'string') {

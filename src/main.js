@@ -1,7 +1,7 @@
 class RitAngleSolver {
     constructor() {
         this.solvers = [];
-        const solverPaths = [
+        this.solverPaths = [
 
             // Stage 1
             "./solvers/01_01_question.mjs",
@@ -17,7 +17,7 @@ class RitAngleSolver {
             "./solvers/01_11_question.mjs",
             "./solvers/01_12_question.mjs",
             "./solvers/01_13_question.mjs",
-            // "./solvers/01_14_question.mjs",
+            "./solvers/01_14_question.mjs",
             // "./solvers/01_15_question.mjs",
             // "./solvers/01_16_question.mjs",
             // "./solvers/01_17_question.mjs",
@@ -26,15 +26,11 @@ class RitAngleSolver {
             // "./solvers/01_20_question.mjs",
 
         ];
-
-        this.importAndExtendSolvers(solverPaths).then(() => {
-            this.runSolvingSuite();
-        });
     }
 
-    async importAndExtendSolvers(solverPaths) {
+    async importAndExtendSolvers() {
         const importedSolvers = await Promise.all(
-            solverPaths.map(async (path) => {
+            this.solverPaths.map(async (path) => {
                 const { default: SolverClass } = await import(path);
                 return new SolverClass();
             })
@@ -44,22 +40,23 @@ class RitAngleSolver {
     }
 
     async runSolvingSuite() {
-        for (let index = 0; index < this.solvers.length; index++) {
-            const solver = this.solvers[index];
-            console.time(`[Question ${index + 1}]: [TIME]`);
-            const result = await solver.solve();
-            console.timeEnd(`[Question ${index + 1}]: [TIME]`);
-            console.log(`[Question ${index + 1}]: [OUTP]: ${result}`);
-        }
-    }
+        this.importAndExtendSolvers().then(async () => {
 
-    async solveSpecificQuestion(questionNumber){
-        const solver = this.solvers[index];
-        console.time(`[Question ${index + 1}]: [TIME]`);
-        const result = await solver.solve();
-        console.timeEnd(`[Question ${index + 1}]: [TIME]`);
-        console.log(`[Question ${index + 1}]: [OUTP]: ${result}`);
+            console.time(`[SOLVED RITANGLE]`)
+            for (let index = 0; index < this.solvers.length; index++) {
+                const solver = this.solvers[index];
+                console.time(`[Question ${index + 1}]: [TIME]`);
+                const result = await solver.solve();
+                console.timeEnd(`[Question ${index + 1}]: [TIME]`);
+                console.log(`[Question ${index + 1}]: [OUTP]: ${result}`);
+            };
+
+            console.timeEnd(`[SOLVED RITANGLE]`)    
+        });
+
+            
     }
 }
 
 const RitAngle2023 = new RitAngleSolver();
+RitAngle2023.runSolvingSuite();

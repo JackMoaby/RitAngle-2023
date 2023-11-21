@@ -18,8 +18,7 @@
 | 11 | Jack Moaby, Miguel Butler, Martin Walker | 4.24 |
 | 12 | Jack Moaby, Miguel Butler | 0.0616 |
 | 13 | Jack Moaby, Martin Walker | 170 |
-| 13 | Jack Moaby, Martin Walker, Miguel Butler | 0.0429 |
-| 14 | | |
+| 14 | Jack Moaby, Martin Walker, Miguel Butler | 0.0429 |
 | 15 | | |
 | 16 | | |
 | 17 | | |

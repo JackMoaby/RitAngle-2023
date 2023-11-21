@@ -1,4 +1,4 @@
-import ArrayUtils from "../../utils/JAVASCRIPT/arrayUtils.js";
+import ArrayUtils from "../utils/JAVASCRIPT/arrayUtils.js";
 
 console.time(`[Question 1]: [TIME]`);
 
@@ -7,4 +7,3 @@ const result = permArr.reduce((count, arr) => (arr[0] * arr[1] * arr[2] * arr[3]
 
 console.timeEnd(`[Question 1]: [TIME]`);
 console.log(`[Question 1]: [OUTP]: ${result.toPrecision(3)}`);
-

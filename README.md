@@ -19,12 +19,36 @@
 | 12 | Jack Moaby, Miguel Butler | 0.0616 |
 | 13 | Jack Moaby, Martin Walker | 170 |
 | 14 | Jack Moaby, Martin Walker, Miguel Butler | 0.0429 |
-| 15 | | |
+| 15 | Martin Walker | 0.55 |
 | 16 | | |
 | 17 | | |
 | 18 | | |
 | 19 | | |
 | 20 | | |
+
+### Stage 1 - Clues
+#### Grid based clues
+<pre align="center">
+You will be creating a rectangular crossnumber grid
+All cells in the grid are used, being occupied by a single digit
+Entries are separated by a bold grid line
+Bold grid lines are shown in any tetromino that includes a cell either side of that line
+The outside grid boundary has no bold grid lines
+Tetrominoes can only be rotated, not flipped
+</pre>
+#### Number Based clues
+<pre align="center">
+The six tetrominoes have to be assembled and numbered in normal crossnumber fashion
+
+No crossnumber entry starts with 0
+All crossnumber entries are unique
+1 down is a multiple of 9 across
+14 across is triangular
+9 across is a multiple of 10 down
+Both 2 across and 2 down are triangular
+Both 5 across and 5 down are triangular
+4 down is triangular
+</pre>
 
 ### Stage 2
 | Question(s) | Credit | Solution(s) |

@@ -63,7 +63,7 @@ Both 5 across and 5 down are triangular
 | 28 | | |
 
 <pre align="center">
-    CODEWORD FOR STAGE 3
+CODEWORD FOR STAGE 3
 </pre>
 
 ### Stage 3

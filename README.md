@@ -53,7 +53,7 @@ Both 5 across and 5 down are triangular
 
 ### Stage 2
 | Question(s) | Credit | Solution(s) |
-|---|---|---|
+|--:|:--|--:|
 | 21 | | |
 | 22 | | |
 | 23 | | |

@@ -20,7 +20,7 @@
 | 13 | Jack Moaby, Martin Walker | 170 |
 | 14 | Jack Moaby, Martin Walker, Miguel Butler | 0.0429 |
 | 15 | Martin Walker | 0.55 |
-| 16 | | |
+| 16 | Jack Moaby | 136 |
 | 17 | | |
 | 18 | | |
 | 19 | | |
@@ -48,6 +48,7 @@ All crossnumber entries are unique
 Both 2 across and 2 down are triangular
 Both 5 across and 5 down are triangular
 4 down is triangular
+6 down is triangular
 </pre>
 
 ### Stage 2

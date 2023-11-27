@@ -49,6 +49,7 @@ Both 2 across and 2 down are triangular
 Both 5 across and 5 down are triangular
 4 down is triangular
 6 down is triangular
+7 down is prime
 </pre>
 
 ### Stage 2

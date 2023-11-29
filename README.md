@@ -1,6 +1,13 @@
 # 2023 Ritangle Competition
 > [Ritangle Website](https://mei.org.uk/ritangle/) ⟵ Tempremental link
 
+## Notes for the evening:
+- Set up all of the computers, logged in, with the ritangle question page open
+- Open each of the questions as they come out, one on each computer
+- Let everyone FFA for each of the solutions
+- Note down who did each one and collate the solutions later for this repo
+- Pizza
+
 ## Solutions
 ### Stage 1
 | Question(s) | Credit | Solution(s) |

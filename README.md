@@ -50,6 +50,7 @@ Both 5 across and 5 down are triangular
 4 down is triangular
 6 down is triangular
 7 down is prime
+8 across is prime
 </pre>
 
 ### Stage 2

@@ -30,7 +30,7 @@
 | 16 | Jack Moaby | 136 |
 | 17 | Jack Moaby, Martin Walker, Miguel Butler | 3.28 |
 | 18 | Jack Moaby, Martin Walker, Miguel Butler| 87 |
-| 19 | | |
+| 19 | Jack Moaby | 13400000000 |
 | 20 | | |
 
 ### Stage 1 - Clues
@@ -58,6 +58,7 @@ Both 5 across and 5 down are triangular
 6 down is triangular
 7 down is prime
 8 across is prime
+8 across is a factor of 12 across
 </pre>
 
 ### Stage 2

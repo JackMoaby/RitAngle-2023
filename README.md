@@ -1,13 +1,6 @@
 # 2023 Ritangle Competition
 > [Ritangle Website](https://mei.org.uk/ritangle/) ⟵ Tempremental link
 
-## Notes for the evening:
-- Set up all of the computers, logged in, with the ritangle question page open
-- Open each of the questions as they come out, one on each computer
-- Let everyone FFA for each of the solutions
-- Note down who did each one and collate the solutions later for this repo
-- Pizza
-
 ## Solutions
 ### Stage 1
 | Question(s) | Credit | Solution(s) |
@@ -31,7 +24,7 @@
 | 17 | Jack Moaby, Martin Walker, Miguel Butler | 3.28 |
 | 18 | Jack Moaby, Martin Walker, Miguel Butler| 87 |
 | 19 | Jack Moaby | 13400000000 |
-| 20 | | |
+| 20 | Jack Moaby, Miguel Butler | 0.0333 |
 
 ### Stage 1 - Clues
 #### Grid based clues
@@ -59,6 +52,7 @@ Both 5 across and 5 down are triangular
 7 down is prime
 8 across is prime
 8 across is a factor of 12 across
+11 across is greater than 12 across
 </pre>
 
 ### Stage 2

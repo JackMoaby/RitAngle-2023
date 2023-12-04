@@ -1,9 +1,8 @@
 {
   "name": "ritangle-2023",
   "version": "1.0.0",
-  "description": "",
+  "description": "A repository for the \"Children of Hegarty\" 's solutions to the Ritangle 2023 competition",
   "main": "index.js",
-  "type": "module",
   "directories": {
     "doc": "docs"
   },
@@ -11,17 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/JackMoaby/RitAngle-2023.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "Maths",
+    "Maths-Prolblem",
+    "Competition"
+  ],
+  "author": "The Children of Hegarty",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/JackMoaby/RitAngle-2023/issues"
   },
-  "homepage": "https://github.com/JackMoaby/RitAngle-2023#readme",
-  "dependencies": {
-    "@tensorflow/tfjs": "^4.11.0",
-    "gpu.js": "^2.16.0",
-    "mathjs": "^11.12.0",
-    "seedrandom": "^3.0.5"
-  }
+  "homepage": "https://github.com/JackMoaby/RitAngle-2023#readme"
 }

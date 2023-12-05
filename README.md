@@ -58,7 +58,7 @@ Both 5 across and 5 down are triangular
 ### Stage 2
 | Question(s) | Credit | Solution(s) |
 |--:|:--|--:|
-| 21 | | |
+| 21 | Jack Moaby | 0.5 |
 | 22 | Martin Walker, Miguel Butler | 1.56 |
 | 23 | Adam Drew, John Funnel | 37.5 |
 | 24 | | |
@@ -68,7 +68,7 @@ Both 5 across and 5 down are triangular
 | 28 | Jack Moaby | 50 |
 
 <pre align="center">
-
+3 down is triangular
 10 down is triangular
 12 across is triangular
 

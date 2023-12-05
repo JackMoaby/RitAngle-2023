@@ -61,7 +61,7 @@ Both 5 across and 5 down are triangular
 | 21 | Jack Moaby | 0.5 |
 | 22 | Martin Walker, Miguel Butler | 1.56 |
 | 23 | Adam Drew, John Funnel | 37.5 |
-| 24 | | |
+| 24 | Jack Moaby | 185 |
 | 25 | Miguel Butler | 1099 |
 | 26 | | |
 | 27 | Majd, Qahwaji, Stanley| 0.118 |
@@ -71,7 +71,7 @@ Both 5 across and 5 down are triangular
 3 down is triangular
 10 down is triangular
 12 across is triangular
-
+13 across is triangular
 Only 3 grid squares are not covered by triangular numbers
 
 Only 2 primes appear as answers

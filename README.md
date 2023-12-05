@@ -59,13 +59,24 @@ Both 5 across and 5 down are triangular
 | Question(s) | Credit | Solution(s) |
 |--:|:--|--:|
 | 21 | | |
-| 22 | | |
-| 23 | | |
+| 22 | Martin Walker, Miguel Butler | 1.56 |
+| 23 | Adam Drew, John Funnel | 37.5 |
 | 24 | | |
-| 25 | | |
+| 25 | Miguel Butler | 1099 |
 | 26 | | |
-| 27 | | |
-| 28 | | |
+| 27 | Majd, Qahwaji, Stanley| 0.118 |
+| 28 | Jack Moaby | 50 |
+
+<pre align="center">
+
+10 down is triangular
+12 across is triangular
+
+Only 3 grid squares are not covered by triangular numbers
+
+Only 2 primes appear as answers
+The sum of the entered digits equals 9 across plus 11 across
+</pre>
 
 <pre align="center">
 CODEWORD FOR STAGE 3

@@ -63,7 +63,7 @@ Both 5 across and 5 down are triangular
 | 23 | Adam Drew, John Funnel | 37.5 |
 | 24 | Jack Moaby | 185 |
 | 25 | Miguel Butler | 1099 |
-| 26 | | |
+| 26 | Random Y12 | 4.236 |
 | 27 | Majd, Qahwaji, Stanley| 0.118 |
 | 28 | Jack Moaby | 50 |
 
@@ -73,7 +73,7 @@ Both 5 across and 5 down are triangular
 12 across is triangular
 13 across is triangular
 Only 3 grid squares are not covered by triangular numbers
-
+Your codeword is revealed by using the 8 digits from the middle row of the crossnumber and converting each in turn to one of the three possibilities offered by the conversion: 1=A,J,S; 2=B,K,T; 3=C,L,U; 4=D,M,V; 5=E,N,W; 6=F,O,X; 7=G,P,Y; 8=H,Q,Z; 9=I,R; 
 Only 2 primes appear as answers
 The sum of the entered digits equals 9 across plus 11 across
 </pre>

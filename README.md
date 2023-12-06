@@ -26,8 +26,19 @@
 | 19 | Jack Moaby | 13400000000 |
 | 20 | Jack Moaby, Miguel Butler | 0.0333 |
 
-### Stage 1 - Clues
-#### Grid based clues
+### Stage 2
+| Question(s) | Credit | Solution(s) |
+|--:|:--|--:|
+| 21 | Jack Moaby | 0.5 |
+| 22 | Martin Walker, Miguel Butler | 1.56 |
+| 23 | Adam Drew, John Funnel | 37.5 |
+| 24 | Jack Moaby | 185 |
+| 25 | Miguel Butler | 1099 |
+| 26 | Random Y12 | 4.236 |
+| 27 | Majd, Qahwaji, Stanley| 0.118 |
+| 28 | Jack Moaby | 50 |
+
+### Clues
 <pre align="center">
 You will be creating a rectangular crossnumber grid
 All cells in the grid are used, being occupied by a single digit
@@ -35,11 +46,7 @@ Entries are separated by a bold grid line
 Bold grid lines are shown in any tetromino that includes a cell either side of that line
 The outside grid boundary has no bold grid lines
 Tetrominoes can only be rotated, not flipped
-</pre>
-#### Number Based clues
-<pre align="center">
 The six tetrominoes have to be assembled and numbered in normal crossnumber fashion
-
 No crossnumber entry starts with 0
 All crossnumber entries are unique
 1 down is a multiple of 9 across
@@ -53,21 +60,6 @@ Both 5 across and 5 down are triangular
 8 across is prime
 8 across is a factor of 12 across
 11 across is greater than 12 across
-</pre>
-
-### Stage 2
-| Question(s) | Credit | Solution(s) |
-|--:|:--|--:|
-| 21 | Jack Moaby | 0.5 |
-| 22 | Martin Walker, Miguel Butler | 1.56 |
-| 23 | Adam Drew, John Funnel | 37.5 |
-| 24 | Jack Moaby | 185 |
-| 25 | Miguel Butler | 1099 |
-| 26 | Random Y12 | 4.236 |
-| 27 | Majd, Qahwaji, Stanley| 0.118 |
-| 28 | Jack Moaby | 50 |
-
-<pre align="center">
 3 down is triangular
 10 down is triangular
 12 across is triangular

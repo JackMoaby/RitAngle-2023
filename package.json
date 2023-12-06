@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A repository for the \"Children of Hegarty\" 's solutions to the Ritangle 2023 competition",
   "main": "index.js",
+  "type": "module",
   "directories": {
     "doc": "docs"
   },

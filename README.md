@@ -35,11 +35,11 @@
 | 24 | Jack Moaby | 185 |
 | 25 | Miguel Butler | 1099 |
 | 26 | Random Y12 | 4.236 |
-| 27 | Majd, Qahwaji, Stanley| 0.118 |
+| 27 | Majd, Qahwaji, Stanley Smith | 0.118 |
 | 28 | Jack Moaby | 50 |
 
 ### Clues
-<pre align="center">
+<pre>
 You will be creating a rectangular crossnumber grid
 All cells in the grid are used, being occupied by a single digit
 Entries are separated by a bold grid line

@@ -143,8 +143,5 @@ const pairingsInformation = manifestInformation(pairings.teams, pairings.players
 const pairingIterator = manifestPairing(pairings, pairingsInformation);
 let currentPairing = pairingIterator.next()
 
-console.time("Get Detriment")
 const pairingDetriment = calculateDetriment(pairings, currentPairing.pairing)
-console.timeEnd("Get Detriment")
-
 console.log(pairingDetriment)

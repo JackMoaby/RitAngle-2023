@@ -116,31 +116,25 @@ function calculateDetriment(information, pairings) {
     }
 
     for (let team = 0; team < teams; team++){
+        let playerDecrement_Z = 0;
+        
         for (let player = 0; player < players; player++){
+            let playerSumBlacks_Z = 0;
             let playerDecrement_Y = (player + 1) * rounds
 
             for (let round = 0; round < rounds; round++){
                 playerDecrement_Y -= pairings[team][player][round][0]
-            }
-        }
-    }
-
-    for (let team = 0; team < teams; team++){
-        let playerDecrement_Z = 0;
-        for (let player = 0; player < players; player++){
-            let playerSumBlacks = 0;
-            for (let round = 0; round < rounds; round++){
-                playerSumBlacks += pairings[team][player][round][2]
+                playerSumBlacks_Z += pairings[team][player][round][2]
             }
             
-            let playerSumWhites = rounds - playerSumBlacks;
-            playerDecrement_Z += (player + 1) * playerSumWhites
+            let playerSumWhites_Z = rounds - playerSumBlacks_Z;
+            playerDecrement_Z += (player + 1) * playerSumWhites_Z
         }
         
         decrement_Z += Math.abs(1 - QzConstant * playerDecrement_Z)
     }
 
-    return [decrement_X, decrement_Y, decrement_Z];
+    return decrement_X + decrement_Y + decrement_Z;
 }
 
 const pairings = { teams: 6, players: 4, rounds: 3 }

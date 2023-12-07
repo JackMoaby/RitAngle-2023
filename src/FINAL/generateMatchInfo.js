@@ -1,5 +1,5 @@
 /**
- * Calculates and provides information about the scheduling of a sports event.
+ * Calculates and provides information about the scheduling of the chess event.
  *
  * @param {number} TEAMS - The number of teams participating in the event.
  * @param {number} PLAYERS - The number of players on each team.

@@ -1,9 +1,23 @@
 # 2023 Ritangle Competition
-> [Ritangle Website](https://mei.org.uk/ritangle/) ⟵ Tempremental link
+> [Ritangle Website](https://mei.org.uk/ritangle/)
+
+### A big **THANK YOU** to all of the team involved 🥳🥳
+We may not have won but we can all agree that it was great fun.
+
+### A special **THANK YOU** for all of the team who solved any of the problems
+> (in order of most questions solved):
+
+- Jack Moaby *(team captain)*
+- Martin Walker
+- Miguel Butler
+- Majd Qahwaji
+- Adam Drew
+- John Funnell
+- Stanley Smith
 
 ## Solutions
 ### Stage 1
-| Question(s) | Credit | Solution(s) |
+| Question | Credit | Solution |
 |--:|:--|--:|
 | 1 | Jack Moaby | 0.0893 |
 | 2 | Jack Moaby, Martin Walker, Majd Qahwaji, Miguel Butler | 3.64 |
@@ -27,14 +41,14 @@
 | 20 | Jack Moaby, Miguel Butler | 0.0333 |
 
 ### Stage 2
-| Question(s) | Credit | Solution(s) |
+| Question | Credit | Solution |
 |--:|:--|--:|
 | 21 | Jack Moaby | 0.5 |
 | 22 | Martin Walker, Miguel Butler | 1.56 |
-| 23 | Adam Drew, John Funnel | 37.5 |
+| 23 | Adam Drew, John Funnell | 37.5 |
 | 24 | Jack Moaby | 185 |
 | 25 | Miguel Butler | 1099 |
-| 26 | Random Y12 | 4.236 |
+| 26 | ??? | 4.236 |
 | 27 | Majd, Qahwaji, Stanley Smith | 0.118 |
 | 28 | Jack Moaby | 50 |
 

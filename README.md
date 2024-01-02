@@ -71,7 +71,7 @@ The sum of the entered digits equals 9 across plus 11 across
 </pre>
 
 <pre align="center">
-Jamboree
+Codeword: Jamboree
 </pre>
 
 ### Stage 3

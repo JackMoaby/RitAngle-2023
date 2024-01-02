@@ -75,3 +75,4 @@ Jamboree
 </pre>
 
 ### Stage 3
+Due to illness we were unable to complete stage 3.
